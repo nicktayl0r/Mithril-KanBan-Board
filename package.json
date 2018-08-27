@@ -1,0 +1,31 @@
+{
+  "name": "mithril-kanban-board",
+  "version": "1.0.0",
+  "description": "my kanban board made with mithril",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack src/index.js --output bin/app.js -d --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicktayl0r/Mithril-KanBan-Board.git"
+  },
+  "keywords": [
+    "mithril",
+    "kanban"
+  ],
+  "author": "Nicky T",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicktayl0r/Mithril-KanBan-Board/issues"
+  },
+  "homepage": "https://github.com/nicktayl0r/Mithril-KanBan-Board#readme",
+  "dependencies": {
+    "mithril": "^1.1.6"
+  },
+  "devDependencies": {
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0"
+  }
+}
